@@ -21,7 +21,7 @@ public class Level : MonoBehaviour
        breakAbleBlocks--;
        if (breakAbleBlocks<=0)
        {
-           if (SceneManager.sceneCountInBuildSettings-2<currentScene)
+           if (SceneManager.sceneCountInBuildSettings-2>currentScene)
            {
                SceneManager.LoadScene(currentScene+1);
            }

@@ -6,6 +6,7 @@ public class LoadGameFromStart : MonoBehaviour
 {
    public void LoadFirstScene()
    {
+       FindObjectOfType<GameStatus>().ResetGame();
        SceneManager.LoadScene(0);
    }
 }
