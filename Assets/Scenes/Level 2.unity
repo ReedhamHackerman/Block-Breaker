@@ -1322,6 +1322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   paddle: {fileID: 1287121814}
+  randomFactor: 0
 --- !u!82 &954021625
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3216,6 +3217,10 @@ PrefabInstance:
     - target: {fileID: 1181613247687520288, guid: 3270e031f3516e4488c3a5264bdecd6a, type: 3}
       propertyPath: m_Name
       value: GameStatus
+      objectReference: {fileID: 0}
+    - target: {fileID: 1181613247687520289, guid: 3270e031f3516e4488c3a5264bdecd6a, type: 3}
+      propertyPath: isAutoPlay
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1181613247687520302, guid: 3270e031f3516e4488c3a5264bdecd6a, type: 3}
       propertyPath: m_LocalPosition.x
